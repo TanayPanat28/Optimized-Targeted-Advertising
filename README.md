@@ -28,14 +28,5 @@ This project analyzes and models marketing data to understand customer behavior 
 
 The dataset used in this project is slightly skewed, requiring a focus on metrics that better account for class imbalances. Instead of relying solely on accuracy, we prioritize the F1 Score as it balances precision and recall.
 
-Results Summary
-
-Model	              Mean CV Accuracy	Validation Accuracy	Precision	Recall	F1 Score
-Logistic Regression	    89.92%	             90.16%	       88.48%	  90.16%	 88.08%
-Random Forest	          89.38%	             89.21%	       87.22%	  89.21%	 87.68%
-Gradient Boosting	      89.41%	             89.82%	       87.87%	  89.82%	 87.64%
-Neural Network	        86.49%	             84.83%	       85.94%	  84.83%	 85.35%
-
-
 Best Model: 
 Logistic Regression was identified as the best-performing model with the highest F1 Score of 88.08%.
